@@ -2,10 +2,8 @@
   padding: .75rem 0;
   background-color: $bd-purple-bright;
 
-  @include media-breakpoint-down(md) {
-    .container-xxl {
-      --bs-gutter-x: #{$bd-gutter-x};
-    }
+  .container-xxl {
+    --bs-gutter-x: #{$bd-gutter-x};
   }
 
   .navbar-toggler {

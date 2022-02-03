@@ -1,5 +1,5 @@
 .bd-layout {
-  @include media-breakpoint-down(md) {
+  .container-xxl {
     --bs-gutter-x: #{$bd-gutter-x};
   }
 
